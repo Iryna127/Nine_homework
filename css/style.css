@@ -1,0 +1,46 @@
+.message {
+  display: none;
+}
+.message.is-visible {
+  display: block;
+}
+
+.input-result {
+  margin: 50px 0px 0px 0px;
+  text-align: center;
+  font-size: 45px;
+  color: darkmagenta;
+}
+.buttons {
+margin-top: 20px;
+}
+.button-enter {
+  background-color: rgb(175, 168, 150);
+  box-shadow: 2px 2px green;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 12px 32px;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  color: rgb(58, 20, 120);
+  margin: 0 15px;
+}
+.button-cancel {
+  background-color: rgb(175, 168, 150);
+  box-shadow: 2px 2px green;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 12px 15px;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  color: rgb(58, 20, 120);
+  margin: 0 15px;
+}
+
+button:hover {
+  font-size: 32px;
+}
